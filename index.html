@@ -3,44 +3,96 @@
     <head>
         <title>Web developing</title>
         <link rel="icon" href="icons/title.ico"  >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
         <link rel="stylesheet" href="css-style.css">
     </head>
     <body>
-        <img class="logo" src="programming.jpg" alt="programming">
-        <div class="nmenu">
-            <a href="#home">HOME</a>
-            <a href="#about">ABOUT</a>
-            <a href="#services">SERVICES</a>
-            <a href="#contact">CONTACT</a>
-        </div>
-        <div>
+    <div id="main">
+        <header>
+            <div id="logo-container">
+                <img class="logo" src="programming.jpg" alt="programming">
+            </div>
+        
+            <div id="nmenu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="banner">
             <div class="bgimg">
-                <h1>PROGRAMMING</h1>
-                <b><p class="p1"> This page just links to other tutorial programming webs</p></b>
+                <h1>IBRAHEEM ZAFFAR</h1>
+                <b><p> This page just links to other tutorial programming webs</p></b>
             </div>
         </div>
         <div class="clearfix">
-            <div class="column"> HTML </div>
-            <div class="column"> CSS </div>
-            <div class="column"> JS </div>
+            <div class="column"> 
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy.
+                </p>
+            </div>
+
+            <div class="column"> 
+                <i class="fa-brands fa-css3"></i>
+                <h3>CSS</h3>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy.
+                </p>
+            </div>
+
+            <div class="column"> 
+                <i class="fa-brands fa-js"></i>
+                <h3>JS</h3>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy.
+                </p>
+            </div>
         </div>
         
-        <h1 class="center clearfix">SERVICES</h1>
+        <div id="services">
+            <h1 class="center clearfix">SERVICES</h1>
         
-        <div class="services">Software Development</div>
-        <div class="services">Website Development</div>
-        <div class="services">Application Development</div>
-        <div class="services">Website Design</div>
+            <div class="column services"> 
+                <i class="fa-brands fa-uncharted"></i>
+            <h3>Software Development</h3>
+            </div>
+            <div class="column services">
+                <i class="fa-solid fa-layer-group"></i>
+            <h3>Website Development</h3>
+            </div>
+            <div class="column services">
+                <i class="fa-brands fa-apple"></i>
+            <h3>Application Development</h3>
+            </div>
+            <div class="column services">
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h3>Website Design</h3>
+            </div>
+        </div>
 
-        <hr>
-
+    
         <footer>
+            
             <p>We have other expertise also contact:<br>
             <a href="mailto:askibbi@yahoo.com">askibbi@yahoo.com</a>
             </p>
+            <p>All rights reservered- Copyright 2024</p>
+
         </footer>
 
-        <p class="center p2">All rights reservered- Copyright 2024</p>
-</body>
+    </div>
+    </body>
 
 </html>
