@@ -1,24 +1,26 @@
 body {
     background: #ddd;
-    font-family: "Roboto", sans-serif;font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
-       
+
 }
+
 #main {
-    width:80%;
+    width: 80%;
     background-color: white;
     margin-left: 10%;
 }
 
-div#logo-container {  
-    width:25%;
-    text-align : left;
+div#logo-container {
+    width: 25%;
+    text-align: left;
     border-radius: 5px;
-    float:left;
+    float: left;
 }
 
-img.logo{
+img.logo {
     width: 100%;
 }
 
@@ -27,127 +29,130 @@ div#nmenu {
     /* position: absolute; */
     float: left;
     width: 75%;
-    background-color :#b30000;
-    color : white;
-    padding : 10px;
+    background-color: #b30000;
+    color: white;
+    padding: 10px;
     list-style-type: none;
     text-align: right;
     margin-top: 110px;
     border-radius: 5px;
 }
 
-div#nmenu ul{
+div#nmenu ul {
     list-style: none;
 }
 
-div#nmenu ul li{
+div#nmenu ul li {
     display: inline-block;
 }
 
 div#nmenu ul li a:hover {
     background-color: aquamarine;
-    color:black;
+    color: black;
 }
+
 div#nmenu ul li a {
     text-decoration: none;
     border: 3px solid #ffbfbf;
     font-weight: bold;
-    padding:7px;
+    padding: 7px;
     border-radius: 5px;
     color: white;
 }
 
-div#banner{
+div#banner {
     clear: both;
-    background-image: url("bg-img.jpg") ;
-    background-size:100%;
+    background-image: url("bg-img.jpg");
+    background-size: 100%;
     background-position: 100% 50%;
-    width:100%;
-    height:300px; 
+    width: 100%;
+    height: 300px;
 }
 
 div.bgimg {
-     
- padding:20px;
- background-color:rgba(255,255,255,0.6);
- height:100%;
- color:#b30000;
- text-align: center;
- font-size: 30px;
+
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    color: #b30000;
+    text-align: center;
+    font-size: 30px;
 
 }
+
 div h1 {
     font-size: 50px;
-    color:#dd1111;
+    color: #dd1111;
     text-align: center;
 }
+
 p.p1 {
     font-size: 30px;
     color: grey;
     text-align: center;
 }
-.column { 
-    width: 33.33%; 
-    float: left; 
-    color:grey;
-    text-align:center;
-    padding-top:50px;
-    padding-bottom:50px;
-} 
 
-.column i{
+.column {
+    width: 33.33%;
+    float: left;
+    color: grey;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.column i {
     display: block;
     font-size: 50px;
     text-align: center;
 }
 
-.column h3{
-    font-size:30px;
+.column h3 {
+    font-size: 30px;
     margin-top: 0px;
     margin-bottom: 0;
 }
 
-.column p{
-    font-size:18px;
+.column p {
+    font-size: 18px;
     padding: 0px 50px;
     color: #555;
     font-weight: 300;
 }
 
 
-.services{
+.services {
     width: 25%;
     float: left;
-    color:grey;
-    font-size:20px;
+    color: grey;
+    font-size: 20px;
     text-align: center;
-    
+
 }
-.services h3{
-    padding-top:20px;
+
+.services h3 {
+    padding-top: 20px;
     font-size: 18px;
 }
-.center{
-    text-align:center;
-    padding-top:15px;
+
+.center {
+    text-align: center;
+    padding-top: 15px;
 }
+
 footer {
     text-align: center;
     padding: 25px;
     color: black;
-    border-top:1px solid#ccc;
-    clear:both;
+    border-top: 1px solid#ccc;
+    clear: both;
 }
 
 
-.clearfix{
-    clear:both;
-}
-*{
-    box-sizing:border-box;
+.clearfix {
+    clear: both;
 }
 
-
-      
-   
-
+* {
+    box-sizing: border-box;
+}
